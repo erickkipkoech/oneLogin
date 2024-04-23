@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  roles_app:
+    container_name: roles_app
+    image: erickkipkoech/roles_app:1.0
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      ConnectionStrings__DefaultConnection: "Host=mysql;Database=rolesapp;Username=root;Password="
+
+  

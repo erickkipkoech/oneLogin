@@ -1,0 +1,12 @@
+#success-message 
+{
+    align-items: center;
+    color: green;
+    justify-content: flex-start;
+
+}
+#error-message {
+    align-items: center;
+    color: red;
+    justify-content: flex-start;
+}
